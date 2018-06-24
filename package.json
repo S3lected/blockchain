@@ -1,0 +1,27 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "A simple blockchain example.",
+  "main": "index.js",
+  "dependencies": {
+    "@types/crypto-js": "^3.1.40",
+    "@types/jquery": "^3.3.4",
+    "@types/lodash": "^4.14.110",
+    "@types/node": "^10.3.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "typescript": "^2.9.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "request": "^2.87.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc"
+  },
+  "author": "Matthias Kiefer",
+  "license": "ISC"
+}
